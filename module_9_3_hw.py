@@ -1,6 +1,6 @@
 # Домашнее задание по теме "Генераторные сборки"
 
-first = ['Strings', 'Student', 'Computers', 'vdvsdv']
+first = ['Strings', 'Student', 'Computers', 'World']
 second = ['Строка', 'Урбан', 'Компьютер']
 
 min_length = min(len(first), len(second))
