@@ -13,7 +13,7 @@ print(list(result))
 def get_advanced_writer(file_name):
     def write_everything(*data_set):
         with open(file_name, 'w', encoding='utf-8') as file:
-            list(map(lambda item: file.write(str(item)), data_set))
+            list(map(lambda item: file.write(str(item) + ' '), data_set))
 
     return write_everything
 
